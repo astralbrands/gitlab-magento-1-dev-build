@@ -1,0 +1,38 @@
+{
+    "name": "astral/magento1devbuild",
+    "description": "Astral Brands Magento EE",
+    "require-dev": {
+
+    },
+    "require": {
+		"astral/magento1custom": "^1.14"
+        "astral/magento1devdb": "^1.14"
+    },
+    "authors": [
+        {
+            "name": "Ralph Smith",
+            "email": "rsmith@astralbrands.com"
+        }
+    ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:AydinHassan/magento-community.git"
+		},	
+	    {
+            "type": "vcs",
+            "url": "git@git.astralbrands.com:AstralBrands/magento-1-core.git"
+        },
+		{
+			"type": "vcs",
+			"url": "git@git.astralbrands.com:AstralBrands/magento-1-custom-core.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@git.astralbrands.com:AstralBrands/magento-1-custom.git"
+		}
+	],
+    "extra": {
+        "magento-root-dir": "magento"
+    }	
+}
