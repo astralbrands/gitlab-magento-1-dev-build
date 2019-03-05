@@ -5,7 +5,7 @@
 
     },
     "require": {
-		"astral/magento1custom": "^1.14"
+		"astral/magento1custom": "^1.14",
         "astral/magento1devdb": "^1.14"
     },
     "authors": [
