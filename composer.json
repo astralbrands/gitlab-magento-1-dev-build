@@ -34,6 +34,10 @@
 		{
 			"type": "vcs",
 			"url": "git@git.astralbrands.com:AstralBrands/magento-1-developers-db.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@git.astralbrands.com:AstralBrands/magento-1-media.git"
 		}
 	],
     "extra": {
